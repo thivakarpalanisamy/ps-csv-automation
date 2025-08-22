@@ -1,0 +1,61 @@
+{
+  "packageVersion": 1,
+  "rows": [
+    {
+      "rowIndex": 0,
+      "data": {
+        "Name": "Alice Smith",
+        "Qualification": "MSc",
+        "PhotoFile": "C:/Users/DELL/Desktop/photos/alice.jpg"
+      },
+      "mappings": [
+        {
+          "layerName": "Teacher_Name",
+          "columnName": "Name",
+          "layerType": "text",
+          "value": "Alice Smith"
+        },
+        {
+          "layerName": "Qualification",
+          "columnName": "Qualification",
+          "layerType": "text",
+          "value": "MSc"
+        },
+        {
+          "layerName": "Photo",
+          "columnName": "PhotoFile",
+          "layerType": "image",
+          "value": "C:/Users/DELL/Desktop/photos/alice.jpg"
+        }
+      ]
+    },
+    {
+      "rowIndex": 1,
+      "data": {
+        "Name": "Bob Jr.",
+        "Qualification": "B.Ed",
+        "PhotoFile": "C:/Users/DELL/Desktop/photos/bob.jpg"
+      },
+      "mappings": [
+        {
+          "layerName": "Teacher_Name",
+          "columnName": "Name",
+          "layerType": "text",
+          "value": "Bob Jr."
+        },
+        {
+          "layerName": "Qualification",
+          "columnName": "Qualification",
+          "layerType": "text",
+          "value": "B.Ed"
+        },
+        {
+          "layerName": "Photo",
+          "columnName": "PhotoFile",
+          "layerType": "image",
+          "value": "C:/Users/DELL/Desktop/photos/bob.jpg"
+        }
+      ]
+    }
+  ]
+}

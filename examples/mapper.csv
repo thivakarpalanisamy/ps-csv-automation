@@ -1,0 +1,4 @@
+LayerName,ColumnName,LayerType
+Teacher_Name,Name,text
+Qualification,Qualification,text
+Photo,PhotoFile,image
