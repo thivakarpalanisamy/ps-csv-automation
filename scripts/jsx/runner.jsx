@@ -89,8 +89,8 @@ if (typeof Object.keys !== "function") {
       }
     }
 
-    // Expose package globally for later phases
-    this._PS_PACKAGE = pkg;
+    // ExtendScript global variable
+    if (typeof $.global._PS_PACKAGE === "undefined") $.global._PS_PACKAGE = pkg;
     alert("Runner: package.json loaded OK. See ESTK/JS Console for details.");
   } catch (err) {
     alert("Runner ERROR: " + err.toString());
